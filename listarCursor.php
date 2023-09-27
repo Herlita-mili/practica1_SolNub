@@ -22,7 +22,7 @@ $sentencia->execute();
 
 	<div class="col-12">
 		<h1>Listar con cursor</h1>
-		<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Herlita Farro</a>
+		<a href="https://tecsup.instructure.com/courses/25788" target="_blank">Milagros Arteaga</a>
 		<br>
 		<table class="table table-bordered">
 			<thead class="thead-dark">
@@ -36,7 +36,7 @@ $sentencia->execute();
 			</thead>
 			<tbody>
 				<!--
-					Uso de ciclo while y fetch - body intacto pero usando cursor
+					Uso de ciclo while y fetch - body intacto pero usando cursor					
 				-->
 				<?php while ($mascota = $sentencia->fetchObject()){ ?>
 					<tr>
