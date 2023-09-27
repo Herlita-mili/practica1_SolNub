@@ -19,8 +19,9 @@
         <a class="navbar-brand" target="_blank" href="https://tecsup.instructure.com/courses/25788">
         PRACTICA 1| Herlita Farro
         </a>
-        <div class="collapse navbar-collapse" id="miNavbar">
-            <ul class="navbar-nav mr-auto">
+        <div class="card text-center" id="miNavbar">
+            <div>
+            <ul class="nav nav-tabs card-header-tabs">
                 <li class="nav-item">
                     <a class="nav-link" href="./listar.php">Listar (arreglo)</a>
                 </li>
@@ -31,6 +32,12 @@
                     <a class="nav-link" href="./formulario.php">Agregar</a>
                 </li>
             </ul>
+        </div>
+        <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
         </div>
     </nav>
     <!-- Termina la definición del menú -->
